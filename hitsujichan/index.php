@@ -28,7 +28,6 @@ get_header(); ?>
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 			
-						<?php get_template_part( 'template-parts/content', 'aliyah' ); ?>
 			
 			
 <!--****************************ALLIE EDITS****************************/-->
@@ -43,6 +42,23 @@ get_header(); ?>
 
 
 			<?php endwhile; ?>
+			
+			<?php rewind_posts(); ?>
+<?php
+
+
+$args = array( 'post_type' => 'photo_album', 'posts_per_page' => 10 );
+$loop = new WP_Query( $args );
+while ( $loop->have_posts() ) : $loop->the_post();
+
+the_title();
+echo '<div class="kawaii-thang">';
+the_content();
+echo '</div>';
+
+endwhile;
+
+?>
 
 			<?php the_posts_navigation(); ?>
 
