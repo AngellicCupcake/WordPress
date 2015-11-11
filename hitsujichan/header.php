@@ -20,7 +20,7 @@
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
         <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-        
+        <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 
         <?php wp_head(); ?>
@@ -34,16 +34,15 @@
 ?>
         </div> -->
 
+<?php popUP(); ?>
 <?php princessJellyfish(); ?>
-        <div class="JuJu">
-
-            <a href="<?php echo get_option('home'); ?>"><img src="https://wpmmp.bmcc.cuny.edu/~abolden/wp-content/uploads/2015/09/FIGHTLIKEAGIRL.png"></a>
-
+        <div class="JuJu2">
+            <a href="<?php echo get_option('home'); ?>"><img src="https://wpmmp.bmcc.cuny.edu/~abolden/wp-content/uploads/2015/11/kuma.png"></a>
         </div>
         
 <?php customHeader(); ?>
         <div class="JuJu">
-She's Secretly A Magical Girl
+K-Pop & Gyaru Kafe
         </div>
         
         

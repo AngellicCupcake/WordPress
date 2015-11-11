@@ -788,11 +788,11 @@ a:active{
 .page-content,
 .entry-content,
 .entry-summary {
-	margin-left: 300px;
-    margin-right: 300px;
+	margin-left: 220px;
+    margin-right: 220px;
     margin-bottom: 20px;
-    border: 3px #000 solid;
-    border-radius: 10px;
+    border: 5px #000 solid;
+    border-radius: 5px;
     padding: 20px;
 }
 
@@ -933,34 +933,31 @@ object {
 
 /* ALLIE'S CUSTOM EDITS */
 
-.hitsuchan{
-     font-family: 'Architects Daughter', cursive;
-    font-size: 80px;
-    text-align: center;
-    padding: 40px;
-    color: #000;
-    background-image: url("http://media.tumblr.com/e5fd0f6b441fbda8b06a5bbe4eba8183/tumblr_inline_mp82dw4HkJ1qz4rgp.png");
-    background-position: center center;
-    background-repeat: repeat;
-    width: 100%;
-    height: 100%;
-    padding: 50px;
-    
-}
-
 
 .JuJu{
-    font-family: 'Indie Flower', cursive;
-    background-color: #fff;
-    color: #FFC5CE;
-    font-size: 40px;
-    padding-top: 30px;
-    padding-bottom: 60px;
+    font-family: 'Audiowide', cursive;
+    color: #F778A1;
+    font-size: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
-.JuJu img{
-    padding-bottom: 0px;   
+.JuJu2{ 
+    background-color: #fff;
+    font-family: 'Audiowide', cursive;
+    color: #F778A1;
+    font-size: 80px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+    text-align: center;
+     
+}
+.JuJu2 img{
+    padding-bottom: 0px;  
+    width: 70%;
+    background-color: #fff;
 }
 
 
@@ -969,6 +966,13 @@ object {
     background-color: #000;
     font-size: 25px;
     color: #fff;
+    
+}
+
+.page-header{
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: center;
     
 }
 
@@ -985,19 +989,20 @@ object {
     text-align: right;
     font-family: 'Architects Daughter', cursive;
     font-size: 30px; 
-    color: #FFCCDB;
-    border: 2px #FFCCDB solid;
-    border-radius: 15px;
+    color: #000;
+    border: 5px #000 solid;
+    border-radius: 5px;
     padding: 5px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left:15%;
+    margin-right:15%;
 }
 
 .myPostContent{
     font-family: Arial;
-    font-size: 13px;
+    font-size: 20px;
     color: #000;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .site-title{
@@ -1014,9 +1019,9 @@ object {
 
 
 .entry-header{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Audiowide', cursive;
     background-color: #fff;
-    color: #FFC5CE;
+    color: #000;
     font-size: 20px;
     padding-top: 0px;
     padding-bottom: 5px;
@@ -1066,8 +1071,8 @@ ul, ol{
     color: #FFCCDB;  
     margin-left: 300px;
     margin-right: 300px;
-    border: 3px #000 solid;
-    border-radius: 10px;
+    border: 5px #000 solid;
+    border-radius: 5px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -1077,10 +1082,15 @@ ul, ol{
 
 
 .kawaii-thang{
-    font-size: 100px;
-    margin-left: 300px;
-    margin-right: 300px;
-    border: 2px #FFCCDB solid; 
+    text-align: right;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px; 
+    color: #000;
+    border: 5px #000 solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left:15%;
+    margin-right:15%;
 }
 
 

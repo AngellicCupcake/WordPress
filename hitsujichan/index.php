@@ -51,8 +51,8 @@ $args = array( 'post_type' => 'photo_album', 'posts_per_page' => 10 );
 $loop = new WP_Query( $args );
 while ( $loop->have_posts() ) : $loop->the_post();
 
-the_title();
 echo '<div class="kawaii-thang">';
+the_title();
 the_content();
 echo '</div>';
 

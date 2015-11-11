@@ -144,8 +144,12 @@ function princessJellyfish(){
 
 
 function customHeader(){
-    
-    
+
+}
+
+
+function popUp(){
+    echo "<script type='text/javascript'>alert('Welcome! Please note the site is under construction');</script>";
 }
 
 
